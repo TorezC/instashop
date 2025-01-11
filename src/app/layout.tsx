@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, DM_Sans } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import FontAwesomeConfig from "./fontawesome";
 
