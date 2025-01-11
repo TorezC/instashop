@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const page = () => {
     return (
-        <div className="flex flex-col justify-between py-10">
+        <div className="flex flex-col justify-between my-10">
             <div className="flex flex-col gap-3">
                 <Header name='Get Started' link='/auth-1' />
                 <div className="flex items-center gap-2">
@@ -32,7 +32,7 @@ const page = () => {
                     <input type="text" className=" rounded-md border-gray-400 p-2 w-full border" placeholder="Category" />
                 </form>
             </div>
-            <Link href={'/auth-2'} className="btn-navigate">Continue</Link>
+            <Link href={'/create-product'} className="btn-navigate">Continue</Link>
         </div>
     )
 }
