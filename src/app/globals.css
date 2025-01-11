@@ -8,6 +8,10 @@
    --font-dm-sans: 'DM Sans', sans-serif;
 }
 
+.shadow-custom{
+  box-shadow: 4px 8px 24px 0px #FE2C5533;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,4 +23,10 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-dm-sans);
+}
+
+@layer base {
+  .btn-navigate{
+    @apply bg-[#8A226F] shadow-custom  text-center rounded-full p-2 text-white;
+  }
 }

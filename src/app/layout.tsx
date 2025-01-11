@@ -70,7 +70,7 @@ export default function RootLayout({
         <FontAwesomeConfig/>
       </head>
       <body
-        className={`${dmSans.variable}  antialiased`}
+        className={`${dmSans.variable}  antialiased w-full h-screen flex justify-center`}
       >
         {children}
       </body>
